@@ -1,4 +1,4 @@
-FROM ruby:slim
+FROM ruby:latest
 
 LABEL Name=store Version=0.0.1
 
