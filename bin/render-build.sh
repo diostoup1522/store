@@ -3,7 +3,7 @@
 set -o errexit
 
 bundle install
-bin/rails assets:precompile
+bundle exec rails assets:precompile
 bin/rails assets:clean
 
 bin/rails db:migrate
